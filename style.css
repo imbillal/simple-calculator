@@ -1,0 +1,46 @@
+.calculator-body{
+	width: 250px;
+	background: #999;
+	padding: 20px 15px;
+	border-radius: 5px;
+	margin: auto auto;
+}
+.calculator-body p{
+	font-weight: bold;;
+}
+.cal-display{
+	margin-bottom: 15px;
+}
+.details{
+	background: #f9f9f9;
+	color: #aaa;
+}
+
+.cal-display input{
+	border: none;
+	text-align: right;
+	font-size: 18px;
+	padding: 5px 10px;
+}
+button{
+	width: 23.4%;
+	height: 30px;
+}
+button.btn{
+	margin-bottom: 10px;
+}
+button.sumbtn{
+	width: 48%;
+}
+.dataClear{
+	background: #FBBC05;
+	color: #fff;
+}
+.delCurrNum{
+	background: red;
+	color: #fff;
+}
+::-webkit-scrollbar {
+    width: 1em;
+    display: none;
+}
